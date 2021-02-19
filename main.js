@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 // Replace this with your Sheety URL
 // Make sure NOT to include the sheet name in the URL (just the project name!)
-var projectUrl = 'https://api.sheety.co/868a53474b5dfd812cbccdcd9f3a5736/productQuest/products';
+var projectUrl = 'https://api.sheety.co/868a53474b5dfd812cbccdcd9f3a5736/productQuest/';
 
 function loadProducts() {
 	fetch(projectUrl + '/products')
